@@ -1,6 +1,6 @@
 {
   "name": "@oliviacl/tutorial-frontend-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Shareable ESLint and Prettier configurations for frontend projects",
   "type": "module",
   "main": "index.js",
