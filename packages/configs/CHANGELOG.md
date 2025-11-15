@@ -1,5 +1,11 @@
 # @oliviacl/tutorial-frontend-config
 
+## 1.0.3
+
+### Patch Changes
+
+- c3b8e8f: Update package doc
+
 ## 1.0.2
 
 ### Patch Changes
