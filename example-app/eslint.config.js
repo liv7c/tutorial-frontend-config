@@ -1,4 +1,4 @@
-import { eslintConfig } from '@oliviac-tutorial-demo/configs';
+import { eslintConfig } from '@oliviac-tutorial-demo/frontend-config';
 import reactRefresh from 'eslint-plugin-react-refresh';
 
 export default [

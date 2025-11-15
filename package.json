@@ -19,7 +19,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/liv7c/frontend-configs.git"
+    "url": "https://github.com/liv7c/tutorial-frontend-config.git"
   },
   "devDependencies": {
     "@changesets/cli": "^2.29.7"
