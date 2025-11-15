@@ -1,0 +1,27 @@
+{
+  "name": "frontend-configs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Shareable ESLint and Prettier configurations for frontend projects",
+  "workspaces": [
+    "packages/*",
+    "example-app"
+  ],
+  "scripts": {
+    "test": "echo \"No tests yet\"",
+    "clean": "rm -rf node_modules packages/*/node_modules example-app/node_modules",
+    "changeset": "changeset",
+    "version": "changeset version",
+    "release": "changeset publish"
+  },
+  "keywords": ["eslint", "prettier", "config", "frontend"],
+  "author": "oliviacl",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oliviacl/frontend-configs.git"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.0"
+  }
+}
