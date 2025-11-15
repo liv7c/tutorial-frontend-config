@@ -53,20 +53,6 @@ import config from '@oliviacl/tutorial-frontend-config/prettier';
 - Semicolons
 - 2 space indentation
 - 100 character line width
-- Trailing commas (ES5)
-
-## Testing Locally with yalc
-
-This package is designed for tutorials about testing packages with yalc before publishing.
-
-```bash
-# In this package
-yalc publish
-
-# In your test project
-yalc add @oliviacl/tutorial-frontend-config
-npm install
-```
 
 ## Repository
 
