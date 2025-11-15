@@ -22,6 +22,6 @@
     "url": "https://github.com/oliviacl/frontend-configs.git"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.27.0"
+    "@changesets/cli": "^2.29.7"
   }
 }
