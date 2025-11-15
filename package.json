@@ -19,7 +19,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/oliviacl/frontend-configs.git"
+    "url": "https://github.com/liv7c/frontend-configs.git"
   },
   "devDependencies": {
     "@changesets/cli": "^2.29.7"
