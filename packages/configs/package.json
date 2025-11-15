@@ -1,0 +1,36 @@
+{
+  "name": "@oliviac-tutorial-demo/configs",
+  "version": "1.0.0",
+  "description": "Shareable ESLint and Prettier configurations for frontend projects",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./eslint": "./eslint.js",
+    "./prettier": "./prettier.js"
+  },
+  "keywords": ["eslint", "prettier", "config", "javascript", "typescript", "frontend"],
+  "author": "oliviacl",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oliviacl/frontend-configs.git",
+    "directory": "packages/configs"
+  },
+  "peerDependencies": {
+    "eslint": "^9.0.0",
+    "prettier": "^3.0.0"
+  },
+  "dependencies": {
+    "@eslint/js": "^9.0.0",
+    "typescript-eslint": "^8.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
