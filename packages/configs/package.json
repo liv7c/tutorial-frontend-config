@@ -4,10 +4,20 @@
   "description": "Shareable ESLint and Prettier configurations for frontend projects",
   "type": "module",
   "main": "index.js",
+  "types": "index.d.ts",
   "exports": {
-    ".": "./index.js",
-    "./eslint": "./eslint.js",
-    "./prettier": "./prettier.js"
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    },
+    "./eslint": {
+      "types": "./eslint.d.ts",
+      "default": "./eslint.js"
+    },
+    "./prettier": {
+      "types": "./prettier.d.ts",
+      "default": "./prettier.js"
+    }
   },
   "keywords": ["eslint", "prettier", "config", "javascript", "typescript", "frontend"],
   "author": "oliviacl",
@@ -22,13 +32,16 @@
     "prettier": "^3.0.0"
   },
   "dependencies": {
-    "@eslint/js": "^9.0.0",
-    "typescript-eslint": "^8.0.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-jsx-a11y": "^6.8.0",
-    "eslint-plugin-react": "^7.33.2",
-    "eslint-plugin-react-hooks": "^4.6.0"
+    "@eslint/js": "^9.39.1",
+    "typescript-eslint": "^8.46.4",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.0.1"
+  },
+  "devDependencies": {
+    "@types/eslint": "^9.0.0"
   },
   "publishConfig": {
     "access": "public"
