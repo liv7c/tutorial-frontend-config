@@ -1,3 +1,3 @@
-import { prettierConfig } from '@oliviac-tutorial-demo/configs';
+import { prettierConfig } from '@oliviacl/tutorial-frontend-config';
 
 export default prettierConfig;

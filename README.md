@@ -5,7 +5,7 @@ A shareable ESLint and Prettier configuration package for frontend projects.
 ## Installation
 
 ```bash
-npm install --save-dev @oliviac-tutorial-demo/configs eslint prettier
+npm install --save-dev @oliviacl/tutorial-frontend-config eslint prettier
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install --save-dev @oliviac-tutorial-demo/configs eslint prettier
 Create `eslint.config.js`:
 
 ```javascript
-import { eslintConfig } from '@oliviac-tutorial-demo/configs';
+import { eslintConfig } from '@oliviacl/tutorial-frontend-config';
 
 export default eslintConfig;
 ```
@@ -23,7 +23,7 @@ export default eslintConfig;
 Or import from the subpath:
 
 ```javascript
-import config from '@oliviac-tutorial-demo/configs/eslint';
+import config from '@oliviacl/tutorial-frontend-config/eslint';
 
 export default config;
 ```
@@ -41,7 +41,7 @@ export default config;
 Create `.prettierrc.js`:
 
 ```javascript
-import { prettierConfig } from '@oliviac-tutorial-demo/configs';
+import { prettierConfig } from '@oliviacl/tutorial-frontend-config';
 
 export default prettierConfig;
 ```
@@ -49,7 +49,7 @@ export default prettierConfig;
 Or import from the subpath:
 
 ```javascript
-import config from '@oliviac-tutorial-demo/configs/prettier';
+import config from '@oliviacl/tutorial-frontend-config/prettier';
 
 export default config;
 ```
@@ -92,7 +92,7 @@ Publishing is automated via GitHub Actions. When changesets are merged to main, 
 ```
 frontend-configs/
 ├── packages/
-│   └── configs/              # @oliviac-tutorial-demo/configs
+│   └── configs/              # @oliviacl/tutorial-frontend-config
 │       ├── index.js         # Exports both configs
 │       ├── eslint.js        # ESLint config
 │       └── prettier.js      # Prettier config

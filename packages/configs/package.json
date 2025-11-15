@@ -1,5 +1,5 @@
 {
-  "name": "@oliviac-tutorial-demo/configs",
+  "name": "@oliviacl/tutorial-frontend-config",
   "version": "1.0.0",
   "description": "Shareable ESLint and Prettier configurations for frontend projects",
   "type": "module",
@@ -24,7 +24,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/liv7c/frontend-configs.git",
+    "url": "https://github.com/liv7c/tutorial-frontend-config.git",
     "directory": "packages/configs"
   },
   "peerDependencies": {
