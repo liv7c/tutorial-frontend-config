@@ -1,5 +1,11 @@
 # @oliviacl/tutorial-frontend-config
 
+## 1.0.4
+
+### Patch Changes
+
+- e2ad5ca: Update readme
+
 ## 1.0.3
 
 ### Patch Changes
