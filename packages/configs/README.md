@@ -1,6 +1,6 @@
 # @oliviacl/tutorial-frontend-config
 
-Shareable ESLint and Prettier configurations for frontend projects. Perfect for testing with yalc!
+Shareable ESLint and Prettier configurations for frontend projects.
 
 ## Installation
 
